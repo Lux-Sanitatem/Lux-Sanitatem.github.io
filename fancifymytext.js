@@ -22,6 +22,7 @@ function changeStyle(){
 }
 //Function to hangle moo 
 function makeMoo(){
+    console.log("makeMoo() function called");
     var textArea = document.getElementById("textInput");
     var text = textArea.value;
     var sentences = text.split(". ");
