@@ -33,6 +33,6 @@ function makeMoo(){
 }
 //Event Listeners
 document.getElementById("biggerButton").addEventListener("click", makeBigger);
-document.getElementById("fancyRadio").addEventListener("change", changeStyle);
+document.getElementById("fancyRadio").addEventListener("click", changeStyle);
 document.getElementById("boringRadio").addEventListener("change", changeStyle);
 document.getElementById("mooButton").addEventListener("click", makeMoo);
