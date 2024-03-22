@@ -23,7 +23,7 @@ function changeStyle(){
 //Function to hangle moo 
 function makeMoo(){
     var textArea = document.getElementById("textInput");
-    var text = textArea.areaValueMax;
+    var text = textArea.value;
     var sentences = text.split(". ");
     for (var i = 0; i < sentences.length; i++) {
         var words = sentences[i].split(" ");
